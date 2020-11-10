@@ -393,7 +393,7 @@
    }
    
    .body-3 {
-     background-image: url("https://uploads-ssl.webflow.com/5f173efcd37b28dae3b95c0c/5f89d92e7964f018967c3ac8_discord%20new.jpg");
+     background-image: url("/images/5f89d92e7964f018967c3ac8_discord\ new.jpg");
      background-position: 0px 0px;
      background-size: cover;
    }
