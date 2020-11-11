@@ -490,10 +490,11 @@
    }
    
    .image-13 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    position: absolute;
+    top: 0px;
+    right: 26%;
+    width: 200px;
+    height: 100px;
    }
    
    .text-block-5 {
