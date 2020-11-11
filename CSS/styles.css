@@ -490,15 +490,12 @@
    }
    
    .image-13 {
-    position: absolute;
-    top: 0px;
-    right: 26%;
-    width: 200px;
-    height: 100px;
+     position: relative;
+     left: 300px;
+     margin-left: 0px;
    }
    
    .text-block-5 {
-     margin-left: 0px;
      color: #333;
      font-weight: 600;
      text-align: center;
@@ -876,6 +873,10 @@
        width: 25%;
      }
    
+     .image-13 {
+       left: 210px;
+     }
+   
      .cards-grid-container {
        grid-column-gap: 20px;
      }
@@ -976,6 +977,11 @@
    
      .hero-overlay-3 {
        padding: 40px 20px;
+     }
+   
+     .image-13 {
+       left: 108px;
+       top: -15px;
      }
    
      .image-14 {
@@ -1128,9 +1134,13 @@
        bottom: 20px;
      }
    
+     .image-13 {
+       left: 44px;
+     }
+   
      .text-block-5 {
        position: absolute;
-       left: 13px;
+      left: 13px;
        width: 355.5130615234375px;
      }
    
