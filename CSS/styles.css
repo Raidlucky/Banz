@@ -490,11 +490,10 @@
    }
    
    .image-13 {
-    position: relative;
-    left: 50%;
-    top: 0%;
-    right: auto;
-    bottom: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
    }
    
    .text-block-5 {
@@ -876,10 +875,6 @@
        width: 25%;
      }
    
-     .image-13 {
-       left: 50%;
-     }
-   
      .cards-grid-container {
        grid-column-gap: 20px;
      }
@@ -980,10 +975,6 @@
    
      .hero-overlay-3 {
        padding: 40px 20px;
-     }
-   
-     .image-13 {
-      left: 50%;
      }
    
      .image-14 {
@@ -1134,10 +1125,6 @@
        position: relative;
        top: -32px;
        bottom: 20px;
-     }
-   
-     .image-13 {
-       left: 50%;
      }
    
      .text-block-5 {
