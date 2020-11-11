@@ -673,10 +673,12 @@
      text-shadow: 1px 1px 2px #000;
    }
    
-   .avatar {
+   .image-16 {
      position: relative;
      left: 41%;
      top: 0%;
+     width: 163px;
+     height: 0px
      right: auto;
      bottom: auto;
      border-radius: 50%;
