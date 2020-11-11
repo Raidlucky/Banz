@@ -496,7 +496,7 @@
    }
    
    .text-block-5 {
-    margin-left: 0px;
+     margin-left: 0px;
      color: #333;
      font-weight: 600;
      text-align: center;
@@ -1137,6 +1137,12 @@
    
      .image-13 {
        left: 44px;
+     }
+   
+     .text-block-5 {
+       position: absolute;
+       left: 13px;
+       width: 355.5130615234375px;
      }
    
      .heading-17 {
