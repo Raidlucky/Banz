@@ -1045,15 +1045,15 @@
    
    @media screen and (max-width: 479px) {
      .nav-link {
-       background-color: rgba(0, 0, 0, 0.63);
+       background-color: rgba(0, 0, 0, 1);
      }
    
      .nav-link-3 {
-       background-color: rgba(0, 0, 0, 0.63);
+       background-color: rgba(0, 0, 0, 1);
      }
    
      .nav-link-3.w--current {
-       background-color: rgba(0, 0, 0, 0.63);
+       background-color: rgba(0, 0, 0, 1);
      }
    
      .text-block {
@@ -1065,7 +1065,7 @@
      }
    
      .nav-menu {
-       background-color: rgba(0, 0, 0, 0.63);
+       background-color: rgba(0, 0, 0, 1);
      }
    
      .nav-link-8 {
@@ -1073,7 +1073,7 @@
      }
    
      .nav-link-8.menu-button {
-       background-color: rgba(0, 0, 0, 0.63);
+       background-color: rgba(0, 0, 0, 1);
      }
    
      .nav-link-9 {
@@ -1081,7 +1081,7 @@
      }
    
      .nav-link-9.menu-button {
-       background-color: rgba(0, 0, 0, 0.63);
+       background-color: rgba(0, 0, 0, 1);
      }
    
      .menu-button {
