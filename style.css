@@ -114,19 +114,32 @@ nav {
   .div-right {
       display: none !important;
   }
-
-  .c-div {
-    width: 100px !important;
-  }
   }
 
-  @media only screen and (max-width: 480px) and (min-width: 300px) {
+  @media only screen and (max-width: 480px) and (min-width: 200px) {
     .div-left {
       width: 300px !important;
     }
     .description {
       width: 300px !important;
       font-size: 15px !important;
+    }
+
+    .project {
+      width: 375px !important;
+      height: 90px !important;
+    }
+  
+    .p-img {
+      height: 90px !important;
+    }
+
+    .c-div {
+      width: 375px !important;
+    }
+  
+    .s-div {
+      width: 375px !important;
     }
   }
 
