@@ -141,6 +141,10 @@ nav {
     .s-div {
       width: 375px !important;
     }
+
+    .header {
+      margin-top: 50px;
+    }
   }
 
   .div-left {
