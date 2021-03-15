@@ -6,7 +6,6 @@ body {
     font-family: "Roboto";
     box-sizing: border-box;
     background-color: #ff6862;
-    overflow-x: hidden;
 }
 
 p::selection {
@@ -96,6 +95,22 @@ nav {
 
   /* Main Content */
 
+  /* Mobile */
+
+  @media only screen and (max-width: 700px) and (min-width: 400px) {
+    .description {
+      width: 480px;
+  }
+  
+  .div-left {
+      width: 480px;
+  }
+  
+  .div-right {
+      display: none;
+  }
+  }
+
   .div-left {
     margin-left: auto;
     margin-right: 40px;
@@ -104,6 +119,7 @@ nav {
     width: 600px;
     height: 400px;
   }
+  /* End of Mobile */
 
   .div-right {
     margin-right: auto;
