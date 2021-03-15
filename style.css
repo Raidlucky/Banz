@@ -9,6 +9,21 @@ body {
     overflow-x: hidden;
 }
 
+p::selection {
+  background-color: white;
+  color:#ff6862
+}
+
+h1::selection {
+  background-color: white;
+  color:#ff6862
+}
+
+a::selection {
+  color: white;
+  background-color: #fff0;
+}
+
 a {
     color: white;
 }
@@ -60,8 +75,9 @@ nav {
     bottom: 0;
     color: #FFF;
     text-align: center;
-    width: 200vh;
-    height: 40%;
+    width: 230vh;
+    height: 45%;
+    z-index: -1;
   }
 
   @keyframes animateWave {
@@ -148,7 +164,7 @@ nav {
     width: 500px;
     height: 155px;
     border-radius: 4px;
-    margin-top: 20px;
+    margin-top: 50px;
     position: relative;
   }
 
