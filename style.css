@@ -136,7 +136,8 @@ nav {
     }
 
     .c-div {
-      width: 375px !important;
+      width: 355px !important;
+      margin-top: 30px !important;
     }
   
     .s-div {
