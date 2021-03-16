@@ -260,6 +260,7 @@ nav {
     padding: 5px;
     display: inline-block;
     margin-top: 10px;
+    transition: all 0.3s ease;
   }
 
   .btn:hover {
