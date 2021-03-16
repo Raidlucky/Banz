@@ -259,6 +259,10 @@ nav {
     display: inline-block;
     margin-top: 10px;
   }
+
+  .btn:hover {
+    background-color: #fda8a3;
+  }
   
   .languages {
     margin-top: 10px;
