@@ -296,6 +296,7 @@ nav {
     margin-top: 20px;
     color: white;
     display: block !important;
+    line-height: 80px;
   }
 
   .s-desc {
@@ -307,35 +308,36 @@ nav {
     display: block !important;
   }
 
-  .support-link {
-    text-decoration: none;
-    color: white;
-    width: 250px;
-    width: 250px;
-    display: block;
-    
+  .support-row {
+  height: 250px;
+  display: inline-flex;
   }
 
-  .support-div {
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
-    background-color: rgb(61, 59, 59);
-    border-radius: 10px;
-    transition: all 0.3s ease;
-  }
+.support-card {
+background-color: rgb(63, 60, 60);
+display: inline-block;
+height: 250px;
+width: 250px;
+border-radius: 4px;
+margin-left: 15px;
+margin-right: 15px;
+transition: all 0.3s ease;
+}
 
-  .support-div:hover {
-    box-shadow: 4px 4px 40px rgb(87, 91, 124);
-  }
+.support-link {
+  height: 250px;
+  width: 250px;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}
 
-  .support-image {
-    width: 150px;
-  }
+.support-image {
+  width: 150px;
+}
 
-  .support-header {
-    margin: 0px;
+  .support-card:hover {
+    box-shadow: 4px 4px 40px #ff676252;
   }
 
 /* Project page */
