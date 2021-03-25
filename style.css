@@ -281,23 +281,63 @@ nav {
 
   .s-div {
     display: block;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 1000px;
     background-color: #333;
-    height: 250px;
+    height: 700px;
     border-radius: 4px;
     text-align: center;
     box-shadow: 4px 4px 40px rgb(0 0 0 / 60%);
   }
 
   .s-header {
+    margin-top: 20px;
     color: white;
+    display: block !important;
   }
 
   .s-desc {
     color: white;
+    font-size: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block !important;
   }
+
+  .support-link {
+    text-decoration: none;
+    color: white;
+    width: 250px;
+    width: 250px;
+    display: block;
+    
+  }
+
+  .support-div {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(61, 59, 59);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .support-div:hover {
+    box-shadow: 4px 4px 40px rgb(87, 91, 124);
+  }
+
+  .support-image {
+    width: 150px;
+  }
+
+  .support-header {
+    margin: 0px;
+  }
+
 /* Project page */
 .project {
   background-color: #333;
