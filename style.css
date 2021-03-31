@@ -120,11 +120,49 @@ nav {
 
   @media only screen and (max-width: 480px) and (min-width: 200px) {
     .div-left {
+      margin-left: auto !important;
+      margin-right: auto !important;
       width: 300px !important;
+      display: block !important;
+      order: 2 !important;
     }
+
+    .buttons {
+      margin-left: auto !important;
+      margin-right: auto !important;
+      display: block !important;
+      width: 250px !important;
+    }
+
+    .home-image {
+      width: 250px !important;
+      height: 250px !important;
+      margin: 0px !important;
+    }
+
     .description {
       width: 300px !important;
       font-size: 15px !important;
+      margin: 5px !important;
+    }
+
+    br {
+      display: none !important;
+      visibility: none !important;
+    }
+
+    .content {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    
+    .div-right {
+      margin-top: 20px;
+      display: block !important;
+      order: 1 !important;
+      height: 250px !important;
+      margin-left: auto !important;
+      width: 250px !important;
     }
 
     .project {
@@ -146,7 +184,7 @@ nav {
     }
 
     .header {
-      margin-top: 50px;
+      margin-top: 25px !important;
     }
     
   .s-div {
