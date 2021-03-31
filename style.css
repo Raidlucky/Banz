@@ -134,9 +134,14 @@ nav {
       width: 250px !important;
     }
 
+    .left-btn {
+      background-color: white !important;
+      color: #ff6862 !important;
+    }
+
     .home-image {
-      width: 250px !important;
-      height: 250px !important;
+      width: 180px !important;
+      height: 180px !important;
       margin: 0px !important;
     }
 
@@ -160,9 +165,9 @@ nav {
       margin-top: 20px;
       display: block !important;
       order: 1 !important;
-      height: 250px !important;
+      height: 180px !important;
       margin-left: auto !important;
-      width: 250px !important;
+      width: 180px !important;
     }
 
     .project {
