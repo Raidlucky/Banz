@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+
+:root {
+  --background: #ff6862;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -123,6 +128,7 @@ nav {
       margin-left: auto !important;
       margin-right: auto !important;
       width: 300px !important;
+      height: 375px !important;
       display: block !important;
       order: 2 !important;
     }
