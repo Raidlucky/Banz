@@ -1,7 +1,6 @@
 # Banz
-This is the BanZ website for Banz Bot 
+This is the company website for my development team showcasing apps we're making
 The banz Bot repository https://github.com/BanZ-Development/banz
-if the website looks weird at all or out of place trying deleting some cache from the website
 ----------------------------------------------------------------
 ---------------------24/7 Discord Music Bot---------------------
 ----------------------------------------------------------------
