@@ -1,0 +1,55 @@
+body {
+    background-color: #1b1b1b;
+}
+
+.contact-card {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1b1b1b;
+    width: 100%;
+    height: 150px;
+    color: white;
+    border-bottom: 5px solid #1f1f1f;
+}
+
+.avatar-container {
+    background-color: rgba(51, 51, 51, 0.89);
+    margin-right: 10px;
+}
+
+.avatar-img {
+    height: 150px;
+    margin: 0px;
+}
+
+.avatar-name {
+    margin: 0px;
+}
+
+.avatar-desc {
+    margin: 0px;
+    width: 200px;
+    height: 25px;
+}
+
+.languages-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.language-img {
+    height: 18px;
+    margin: 5px;
+}
+
+.contact-btn {
+    display: block;
+    background-color: #ff6961;
+    color: #ffff;
+    padding: 5px;
+    border-radius: 3px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+}
