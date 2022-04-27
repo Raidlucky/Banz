@@ -367,7 +367,6 @@ nav {
     height: 650px;
     border-radius: 4px;
     text-align: center;
-    box-shadow: 4px 4px 40px rgb(0 0 0 / 60%);
   }
 
   .s-header {
@@ -415,5 +414,5 @@ transition: all 0.3s ease;
 }
 
   .support-card:hover {
-    box-shadow: 4px 4px 40px #ff676252;
+    box-shadow: 4px 4px 40px rgb(0 0 0 / 60%);
   }
