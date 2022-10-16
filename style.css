@@ -51,7 +51,7 @@ nav {
     text-decoration: none;
     transition: all 0.3s ease;
     color: white;
-    margin-left: 10px;
+    margin-left: 20px;
     display: inline-block;
     font-size: 17px;
 }
@@ -61,18 +61,19 @@ nav {
 }
 
 .nav-download:hover {
-    background-color: #fda8a3;
+    background-color: #1a1a1a !important;
     cursor: pointer;
+    color: whitesmoke !important;
 }
 
 .nav-download {
-    color: rgb(255, 255, 255);
+    color: #1a1a1a !important;
     line-height: 50px;
     text-decoration: none;
     width: 115px;
     height: 50px;
     font-weight: bold;
-    background-color: #fd8b85;
+    background-color: whitesmoke;
     float: right;
     text-align: center;
     transition: all 0.3s ease;
@@ -273,7 +274,7 @@ nav {
       padding: 10px;
       text-decoration: none;
       color: white;
-      background-color: #fd8b85;
+      background-color: var(--background);
       text-align: center;
       font-size: 22px;
       border-radius: 4px;
