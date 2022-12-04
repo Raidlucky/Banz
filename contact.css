@@ -19,8 +19,10 @@ body {
 }
 
 .avatar-img {
-    height: 150px;
+    width: 150px;
     margin: 0px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .avatar-name {
