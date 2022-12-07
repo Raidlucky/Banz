@@ -59,3 +59,11 @@ body {
 .contact-btn:hover {
     background-color: #fc7a74;
 }
+
+.avatar-title {
+    margin: 0px;
+    width: 200px;
+    height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+}
