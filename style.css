@@ -79,7 +79,7 @@ nav {
     text-decoration: none;
     transition: ease all 0.3s;
     z-index: 1;
-    border-radius: 4px;
+    border-radius: 5px;
     width: 557px;
     height: 220px;
     text-align: center;
@@ -97,28 +97,28 @@ nav {
 }
 
 .cardSection {
-    background: #131313;
+    background: #fff;
     display: flex;
     flex-direction: row;
-    height: 550px;
+    height: 500px;
     justify-content: center;
     align-items: center;
 }
 
 .card {
     display: block;
-    color: #fff;
-    height: 300px;
+    color: #1a1a1a;
+    height: 250px;
     width: 400px;
     padding: 13px;
     margin-inline: 35px;
     border-radius: 4px;
-    background-color: var(--background);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .cardDesc {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .cardIcon {
@@ -127,9 +127,12 @@ nav {
 }
 
 .portfolio {
+    text-align: center;
+    color: #1a1a1a;
     display: flex;
     height: 600px;
-    background-color: #131313;
+    background-color: #fff;
+    flex-direction: column;
 }
 
 .portGrid {
@@ -137,7 +140,7 @@ nav {
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 30px;
-    width: 80%;
+    width: 95%;
     margin-inline: auto;
     justify-items: center;
     align-items: center;
@@ -148,10 +151,13 @@ nav {
     width: 95%;
     height: 80%;
     position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
 }
 
 .gridItem > img {
     width: 100%;
+    height: 100%;
     border-radius: 5px;
     object-fit: cover;
     object-position: center;
@@ -162,7 +168,7 @@ nav {
     color: #fff;
     display: none;
     width: 100%;
-    height: 82%;
+    height: 100%;
     position: absolute;
     z-index: 1;
     backdrop-filter: blur(3px) brightness(0.5);
@@ -171,7 +177,7 @@ nav {
 
 .gridItem:hover > div, .gridItem:hover > img {
     display: block;
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 .btn {
