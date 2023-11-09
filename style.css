@@ -139,13 +139,15 @@ nav {
     column-gap: 30px;
     width: 80%;
     margin-inline: auto;
+    justify-items: center;
+    align-items: center;
 }
 
 .gridItem {
     display: block;
-    width: 450px;
-    height: 230px;
-    height: unset;
+    width: 95%;
+    height: 80%;
+    position: relative;
 }
 
 .gridItem > img {
@@ -159,8 +161,8 @@ nav {
     text-align: center;
     color: #fff;
     display: none;
-    width: 450px;
-    height: 230px;
+    width: 100%;
+    height: 82%;
     position: absolute;
     z-index: 1;
     backdrop-filter: blur(3px) brightness(0.5);
