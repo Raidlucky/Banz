@@ -69,6 +69,9 @@ nav {
 }
 
 .mainCreate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     background-color: var(--main);
     padding: 20px;
@@ -77,6 +80,9 @@ nav {
     transition: ease all 0.3s;
     z-index: 1;
     border-radius: 4px;
+    width: 557px;
+    height: 220px;
+    text-align: center;
 }
 
 .mainCreate:hover {
@@ -123,7 +129,7 @@ nav {
 .portfolio {
     display: flex;
     height: 600px;
-    background-color: var(--background);
+    background-color: #131313;
 }
 
 .portGrid {
