@@ -233,3 +233,41 @@ nav {
 .footer {
     background-color: #fff;
 }
+
+@media only screen and (max-width: 1331px) {
+    .portGrid {
+        grid-template-columns: auto auto;
+    }
+
+    .portfolio {
+        height: unset;
+    }
+
+    .card {
+        height: 275px;
+    }
+}
+
+@media only screen and (max-width: 1151px) {
+    .cardSection {
+        flex-direction: column;
+        height: unset;
+    }
+
+    .card {
+        margin-block: 25px;
+        width: 70%;
+        height: 200px;
+    }
+
+    .cardDesc {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 1007px) {
+    .mainCreate {
+        width: 450px;
+        font-size: 30px;
+    }
+}
