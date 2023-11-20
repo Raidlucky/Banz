@@ -68,6 +68,10 @@ nav {
     display: flex;
     flex-direction: row;
     background-color: var(--background-accent);
+    background: #1a1a1a;
+    background: linear-gradient(90deg,#1a1a1a 0%, #333333 80%);
+    background: -webkit-linear-gradient(90deg,#1a1a1a 0%, #333333 80%);
+    background: -moz-linear-gradient(90deg,#1a1a1a 0%, #333333 80%);
     height: 700px;
     width: 100%;
     justify-content: center;
