@@ -37,6 +37,7 @@ nav {
     margin-left: 20px;
     font-family: 'Overpass';
     font-size: 24px;
+    text-decoration: none;
 }
 
 .nav-links {
@@ -72,7 +73,7 @@ nav {
     background: linear-gradient(90deg,#1a1a1a 0%, #333333 80%);
     background: -webkit-linear-gradient(90deg,#1a1a1a 0%, #333333 80%);
     background: -moz-linear-gradient(90deg,#1a1a1a 0%, #333333 80%);
-    height: 700px;
+    height: 70vh;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -120,8 +121,8 @@ nav {
     display: block;
     color: #1a1a1a;
     text-align: center;
-    height: 250px;
-    width: 400px;
+    height: 25vh;
+    width: 25vw;
     padding: 13px;
     margin-inline: 35px;
     border-radius: 4px;
@@ -135,10 +136,11 @@ nav {
     padding: 10px;
     border-radius: 5px;
     color: #fff;
+    font-size: 2.4em;
 }
 
 .cardDesc {
-    font-size: 23px;
+    font-size: 1.45vw;
 }
 
 .cardIcon {
@@ -150,7 +152,6 @@ nav {
     text-align: center;
     color: #1a1a1a;
     display: flex;
-    height: 750px;
     background-color: #fff;
     flex-direction: column;
 }
@@ -160,6 +161,7 @@ nav {
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 30px;
+    row-gap: 30px;
     width: 95%;
     margin-inline: auto;
     justify-items: center;
@@ -169,7 +171,7 @@ nav {
 .gridItem {
     display: block;
     width: 95%;
-    height: 80%;
+    height: 100%;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 5px;
@@ -232,6 +234,10 @@ nav {
 
 .footer {
     background-color: #fff;
+}
+
+.logoText > h1::selection {
+    background-color: #ffffff00;
 }
 
 @media only screen and (max-width: 1331px) {
