@@ -183,6 +183,7 @@ nav {
     border-radius: 5px;
     object-fit: cover;
     object-position: center;
+    background-color: #333;
 }
 
 .itemHover {
@@ -195,10 +196,17 @@ nav {
     z-index: 1;
     backdrop-filter: blur(3px) brightness(0.5);
     border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemHover > p {
+    width: 70%;
 }
 
 .gridItem:hover > div, .gridItem:hover > img {
-    display: block;
+    display: flex;
     transform: scale(1.1);
 }
 
