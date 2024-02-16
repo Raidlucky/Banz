@@ -65,7 +65,6 @@ nav {
 }
 
 .mainSection {
-    padding-top: 85px;
     display: flex;
     flex-direction: row;
     background-color: var(--background-accent);
@@ -73,7 +72,7 @@ nav {
     background: linear-gradient(90deg,#1a1a1a 0%, #333333 80%);
     background: -webkit-linear-gradient(90deg,#1a1a1a 0%, #333333 80%);
     background: -moz-linear-gradient(90deg,#1a1a1a 0%, #333333 80%);
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -205,6 +204,10 @@ nav {
     width: 70%;
 }
 
+.itemHover > h1 {
+    margin-block: 0px;
+}
+
 .gridItem:hover > div, .gridItem:hover > img {
     display: flex;
     transform: scale(1.1);
@@ -238,6 +241,10 @@ nav {
 .footer > ul > li > a {
     text-decoration: none;
     color: #333;
+}
+
+.footer > ul > li > a:hover {
+    color: #ff6862;
 }
 
 .footer {
