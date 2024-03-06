@@ -12,6 +12,10 @@
     --gray-text: #494949;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     margin: 0px;
@@ -23,7 +27,7 @@ nav {
     display: flex;
     flex-direction: row;
     background-color: #fff;
-    width: 80%;
+    width: 90%;
     height: 70px;
     border-radius: 10px;
     margin-top: 15px;
