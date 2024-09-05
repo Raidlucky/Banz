@@ -15,6 +15,15 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="images/favicon_io/site.webmanifest">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7WR13SQ37T"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7WR13SQ37T');
+    </script>
 </head>
 <body>
     <div style="display: block; width: 100%; position: fixed;z-index: 2;">
@@ -24,10 +33,12 @@
                 <h1 style="color: var(--main);margin-block: 10px;">.dev</h1>
             </a>
             <div class="nav-links">
+                <a href="" class="nav-link">Contact</a>
                 <a href="#cards" class="nav-link">Services</a>
                 <button onclick="wait()" class="nav-link">Pricing</button>
                 <a href="#portfolio" class="nav-link">Portfolio</a>
             </div>
+            <button style="display: none;" class="burger"><i class="fa-solid fa-bars"></i></button>
         </nav>
     </div>
     <div class="mainSection">
